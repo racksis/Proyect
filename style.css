@@ -1,0 +1,16 @@
+* {}
+
+.header {
+    background-color: brown;
+    height: 10vh;
+}
+
+.content {
+
+    height: auto;
+}
+
+.footer {
+    background-color: aqua;
+    height: 10vh;
+}
