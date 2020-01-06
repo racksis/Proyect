@@ -1,16 +1,50 @@
 * {}
 
-.header {
-    background-color: brown;
-    height: 10vh;
-}
-
-.content {
-
+div {
     height: auto;
 }
 
+.p1 {
+    height: 100%;
+}
+
+.p2 {
+    border: 1px solid black;
+    height: 50%;
+}
+
+.header {
+    background-color: brown;
+    height: 15vh;
+    text-align: center;
+}
+
+.tit {
+    font-size: 3vh;
+    padding-top: 3.5vh !important;
+}
+
+.btn1 {
+    height: 100%;
+    width: 100%;
+}
+
+.content {
+    text-align: center;
+    height: 60vh;
+}
+
+
+
+
 .footer {
     background-color: aqua;
-    height: 10vh;
+    height: 25vh;
+}
+
+#d1 {
+    background-image: url(img1.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
