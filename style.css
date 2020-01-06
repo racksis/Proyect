@@ -15,7 +15,7 @@ div {
 
 .header {
     background-color: brown;
-    height: 15vh;
+    height: 100vh;
     text-align: center;
 }
 
@@ -34,9 +34,6 @@ div {
     height: 60vh;
 }
 
-
-
-
 .footer {
     background-color: aqua;
     height: 25vh;
@@ -47,4 +44,12 @@ div {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+@media only screen and (min-width:720px) {}
+
+@media only screen and (min-width:1024px) {
+    .header {
+        height: 15vh;
+    }
 }
